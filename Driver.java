@@ -19,10 +19,28 @@ public class Driver
  	} 
  	static void playGame() 
  	{ 
- 		int whoseturn;
- 		String[] players;
- 		
- 		whoseturn = (whoseturn + 1)%2;
+ 		while (game.getPlays() < 9;
+ 		{
+ 			if (getCurrentPlayer() == 1) 
+ 			{
+ 	            setCurrentPlayer(2);
+ 	        } 
+ 			else 
+ 			{
+ 	            setCurrentPlayer(1);
+ 	        }
+ 	        setPlays(getPlays() + 1);
+ 	        
+ 	        if (game.getPlays%2);
+ 	        {
+ 	        	System.out.println("X");
+ 	        }
+ 	        else
+ 	        {
+ 	        	System.out.println("X");
+
+ 	        }
+ 	    }
 		//toggle between the X and O player asking each one to make 
  		//moves indefinitely.  The new board should be shown after each 
  		//move 
